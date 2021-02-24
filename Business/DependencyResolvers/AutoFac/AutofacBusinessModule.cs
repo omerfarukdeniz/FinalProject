@@ -23,6 +23,9 @@ namespace Business.DependencyResolvers.AutoFac
             builder.RegisterType<EfCategoryDal>().As<ICategoryDal>().SingleInstance();
 
 
+            
+
+
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
