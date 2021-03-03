@@ -8,7 +8,7 @@ namespace Core.Entities.Concrete
     {
         public int Id { get; set; }
         public int MemberId { get; set; }
-        public int OperationId { get; set; }
+        public int OperationClaimId { get; set; }
 
     }
 }
